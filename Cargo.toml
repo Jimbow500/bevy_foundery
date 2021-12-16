@@ -1,8 +1,19 @@
 [package]
 name = "bevy_foundery"
 version = "0.1.0"
-edition = "2021"
+authors = ["Nathan 'Jimbow' Grimes <nathangrimes500@gmail.com>"]
+edition = "2018"
+description = "Tool that makes exporting to bevy so much easier"
+repository = "https://github.com/Jimbow500/bevy_foundery"
+readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+bevy_obj = "0.5.1"
+bevy = "0.5"
+
+
+[[example]]
+name = "scene"
+path = "examples/scene.rs"
